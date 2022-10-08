@@ -240,9 +240,14 @@ mark {
     margin-bottom: 0;
 }
 
+
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    background-image: linear-gradient(to right, #7a74ce 0%, #994d77 100%); 
+    /* //修改成自己喜欢的颜色值 */
+    opacity: 0.8;  
+    /* //透明效果 值范围 0~1，看情况自己修改 */
 }
+
 
 .text-color {
     color: #0f9d58 !important;
