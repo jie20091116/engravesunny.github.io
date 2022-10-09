@@ -247,7 +247,9 @@ mark {
     opacity: 0.8;  
     /* //透明效果 值范围 0~1，看情况自己修改 */
 }
-
+.bg-cover::before {
+    background-image: url('https://codecheng-1305009997.cos.ap-chengdu.myqcloud.com/img/20210504115955.png');/*这里使用我的腾讯云cos图床，你可以下载下来保存*/
+}
 
 .text-color {
     color: #0f9d58 !important;
