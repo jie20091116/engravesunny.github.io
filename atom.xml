@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>刻猫猫的笔记本</title>
   
-  <subtitle>此刻如黄金般闪耀</subtitle>
+  <subtitle>目标是星辰与大海</subtitle>
   <link href="http://engravesunny.github.io/atom.xml" rel="self"/>
   
   <link href="http://engravesunny.github.io/"/>
-  <updated>2022-10-09T15:44:33.089Z</updated>
+  <updated>2022-10-10T14:08:34.383Z</updated>
   <id>http://engravesunny.github.io/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>redux学习笔记</title>
+    <link href="http://engravesunny.github.io/2022/10/10/10.10redux-bi-ji/"/>
+    <id>http://engravesunny.github.io/2022/10/10/10.10redux-bi-ji/</id>
+    <published>2022-10-10T13:23:53.000Z</published>
+    <updated>2022-10-10T14:08:34.383Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;Redux概述&quot;&gt;&lt;a href=&quot;#Redux概述&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="React" scheme="http://engravesunny.github.io/categories/React/"/>
+    
+    
+    <category term="React" scheme="http://engravesunny.github.io/tags/React/"/>
+    
+    <category term="笔记" scheme="http://engravesunny.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo博客主题与修改</title>
