@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="搭建hexo博客, 笔记">
+    <meta name="keywords" content="关于.postcssrc.js配置文件, 笔记">
     <meta name="description" content="用来记录每天的学习内容">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>搭建hexo博客 | 刻猫猫的笔记本</title>
+    <title>关于.postcssrc.js配置文件 | 刻猫猫的笔记本</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -311,12 +311,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/17.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/2.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">搭建hexo博客</h1>
+                    <h1 class="description center-align post-title">关于.postcssrc.js配置文件</h1>
                 </div>
             </div>
         </div>
@@ -432,12 +432,16 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/%E7%AC%94%E8%AE%B0/">
-                                <span class="chip bg-color">笔记</span>
+                            <a href="/tags/%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93/">
+                                <span class="chip bg-color">项目总结</span>
                             </a>
                         
-                            <a href="/tags/%E5%8D%9A%E5%AE%A2/">
-                                <span class="chip bg-color">博客</span>
+                            <a href="/tags/vue/">
+                                <span class="chip bg-color">vue</span>
+                            </a>
+                        
+                            <a href="/tags/postcssrc%E6%8F%92%E4%BB%B6/">
+                                <span class="chip bg-color">postcssrc插件</span>
                             </a>
                         
                     </div>
@@ -448,8 +452,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/%E5%8D%9A%E5%AE%A2/" class="post-category">
-                                博客
+                            <a href="/categories/%E9%BB%91%E9%A9%AC%E5%A4%B4%E6%9D%A1%E9%A1%B9%E7%9B%AE/" class="post-category">
+                                黑马头条项目
                             </a>
                         
                     </div>
@@ -461,21 +465,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2022-10-09
+                    2022-10-27
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2022-10-09
+                    2022-10-27
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    874
+                    989
                 </div>
                 
 
@@ -497,67 +501,110 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h2 id="简单博客搭建流程"><a href="#简单博客搭建流程" class="headerlink" title="简单博客搭建流程"></a>简单博客搭建流程</h2><p>这两天主要就是在搭建和配置自己的小博客(以后会发一点博文，不过我大多会是笔记本来用)</p>
-<h3 id="本地安装以及发布"><a href="#本地安装以及发布" class="headerlink" title="本地安装以及发布"></a>本地安装以及发布</h3><ol>
-<li><strong>安装到本地</strong></li>
-</ol>
-<p>首先选择一个磁盘作为你博客文件的存放位置，然后新建一个文件夹，比如名为blogtest的文件夹，创建完后，先不要点进去，在此处点击鼠标右键，选择Git Bash Here，然后依次输入如下命令：</p>
-<pre class=" language-js"><code class="language-js"># hexo框架的安装
-npm install <span class="token operator">-</span>g hexo<span class="token operator">-</span>cli
-# 等上一个命令完成后，在输入下面的命令
-hexo init <span class="token operator">&lt;</span>新建文件夹的名称<span class="token operator">></span>  #初始化文件夹
-cd <span class="token operator">&lt;</span>新建文件夹的名称<span class="token operator">></span>
-npm install  # 安装博客所需要的依赖文件
+                <h2 id="关于-postcssrc-js配置文件"><a href="#关于-postcssrc-js配置文件" class="headerlink" title="关于.postcssrc.js配置文件"></a><strong>关于<code>.postcssrc.js</code>配置文件</strong></h2><pre class=" language-javascript"><code class="language-javascript">module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+    plugin<span class="token punctuation">:</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+        <span class="token string">'autoprefixer'</span><span class="token punctuation">:</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+            browsers<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">'Android >= 4.0'</span><span class="token punctuation">,</span> <span class="token string">'iOS >= 8'</span><span class="token punctuation">]</span>
+        <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">,</span>
+        <span class="token string">'postcss-pxtorem'</span><span class="token punctuation">:</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+            rootValue<span class="token punctuation">:</span> <span class="token number">37.5</span><span class="token punctuation">,</span>
+            propList<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">'*'</span><span class="token punctuation">]</span>
+        <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+    <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+<span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
 </code></pre>
-<p><img src="https://crazyyuchi.github.io/2022/05/02/bo-ke-da-jian-mei-hua-ju-xi-ban-ben/38.jpg" alt="图片1"></p>
-<p><img src="https://crazyyuchi.github.io/2022/05/02/bo-ke-da-jian-mei-hua-ju-xi-ban-ben/39.jpg" alt="图片2"></p>
-<p>等待运行完的时候，此时文件夹里多了很多文件<br>注意：后续的命令都在站点目录下使用Git Bash运行<br>此时Hexo框架的本地搭建已经完成了。命令行依次输入以下命令:</p>
-<pre class=" language-js"><code class="language-js">hexo g
-hexo s
+<p><code>.postcssrc.js</code>是 PostCSS 的配置文件。</p>
+<p>（1）PostCSS 介绍</p>
+<p><a target="_blank" rel="noopener" href="https://postcss.org/">PostCSS</a> 是一个处理 CSS 的处理工具，本身功能比较单一，它主要负责解析 CSS 代码，再交由插件来进行处理，它的插件体系非常强大，所能进行的操作是多种多样的，例如：</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://github.com/postcss/autoprefixer">Autoprefixer</a> 插件可以实现自动添加浏览器相关的声明前缀</li>
+<li><a target="_blank" rel="noopener" href="https://github.com/csstools/postcss-preset-env">PostCSS Preset Env</a> 插件可以让你使用更新的CSS语法特性并实现向下兼容</li>
+<li><a target="_blank" rel="noopener" href="https://github.com/cuth/postcss-pxtorem">postcss-pxtorem</a> 可以实现将 px 转换为 rem</li>
+<li>…</li>
+</ul>
+<p>目前 PostCSS 已经有 <a target="_blank" rel="noopener" href="https://github.com/postcss/postcss/blob/master/docs/plugins.md">200 多个功能各异的插件</a>。开发人员也可以根据项目的需要，开发出自己的 PostCSS 插件。</p>
+<p>PostCSS 一般不单独使用，而是与已有的构建工具进行集成。</p>
+<p><a target="_blank" rel="noopener" href="https://cli.vuejs.org/zh/guide/css.html#postcss">Vue CLI 默认集成了 PostCSS</a>，并且默认开启了 <a target="_blank" rel="noopener" href="https://github.com/postcss/autoprefixer">autoprefixer</a> 插件。</p>
+<blockquote>
+<p>Vue CLI内部使用了PostCSS。<br>你可以通过<code>.postcssrc</code>或任何 <a target="_blank" rel="noopener" href="https://github.com/michael-ciniawsky/postcss-load-config">postcss-load-config</a>支持的配置资源来配置PostCSS<br>也可以通过vue.config.js中的css.loaderOptions.postcss配置 <a target="_blank" rel="noopener" href="https://github.com/postcss/postcss-loader">postcss-loader</a>。<br>我们默认开启了<a target="_blank" rel="noopener" href="https://github.com/postcss/autoprefixer">autoprefixer</a>。如果要配置目标浏览器，可使用 <code>package.json</code> 的 <a target="_blank" rel="noopener" href="https://cli.vuejs.org/zh/guide/browser-compatibility.html#browserslist">browserslist</a> 字段。</p>
+</blockquote>
+<p>（2）Autoprefixer 插件的配置</p>
+<p><img src="/../img/image-20200319104557718.png" alt="Autoprefixer插件的配置"></p>
+<p><a target="_blank" rel="noopener" href="https://github.com/postcss/autoprefixer">autoprefixer</a>是一个自动添加浏览器前缀的 PostCss 插件，<code>browsers</code> 用来配置兼容的浏览器版本信息，但是写在这里的话会引起编译器警告。</p>
+<pre class=" language-error"><code class="language-error">Replace Autoprefixer browsers option to Browserslist config.
+Use browserslist key in package.json or .browserslistrc file.
+
+Using browsers option can cause errors. Browserslist config
+can be used for Babel, Autoprefixer, postcss-normalize and other tools.
+
+If you really need to use option, rename it to overrideBrowserslist.
+
+Learn more at:
+https://github.com/browserslist/browserslist#readme
+https://twitter.com/browserslist
 </code></pre>
-<p>浏览器中打开它执行完后给你的地址（默认为<code>http://localhost:4000/</code>），可以看到一个网页，说明Hexo已经成功在本地运行</p>
-<p><img src="https://crazyyuchi.github.io/2022/05/02/bo-ke-da-jian-mei-hua-ju-xi-ban-ben/41.jpg" alt="运行成功图片"></p>
-<p>2.本地博客发布到Github Pages</p>
-<p>首先安装可以用来发布的插件，在站点目录下执行以下命令:</p>
-<pre class=" language-js"><code class="language-js">npm install hexo<span class="token operator">-</span>deployer<span class="token operator">-</span>git <span class="token operator">--</span>save
+<p>警告意思就是说你应该将 <code>browsers</code> 选项写到 <code>package.json</code> 或 <code>.browserlistrc</code> 文件中。</p>
+<pre class=" language-default"><code class="language-default">[Android]
+>= 4.0
+
+[iOS]
+>= 8
 </code></pre>
-<p>然后把本地目录与GitHub关联起来，输入以下命令行:</p>
-<pre class=" language-js"><code class="language-js">ssh<span class="token operator">-</span>keygen <span class="token operator">-</span>t rsa <span class="token operator">-</span>C <span class="token string">'你的邮箱地址'</span>
+<blockquote>
+<p>具体语法请<a target="_blank" rel="noopener" href="https://github.com/browserslist/browserslist">参考这里</a>。<br>（3）postcss-pxtorem 插件的配置</p>
+</blockquote>
+<p><img src="/../img/image-20200319105610557.png" alt="postcss-pxtorem插件的配置"></p>
+<ul>
+<li><code>rootValue</code>: 表示根元素字体大小，它会根据元素大小进行单位转换</li>
+<li><code>propList</code>: 用来设定可以从px转为rem的属性<ul>
+<li>例如<code>*</code>就是所有的属性都要转换，<code>width</code>就是仅仅转换<code>width</code>属性</li>
+</ul>
+</li>
+</ul>
+<p><code>rootValue</code> 应该如何设置呢？</p>
+<pre class=" language-default"><code class="language-default">如果你使用的是基于 lib-flexable 的 REM 适配方案，则应该设置为你的设计稿的十分之一。
+例如设计稿是 750 宽，则应该设置为 75。
 </code></pre>
-<p>然后一直回车找到C:&#x2F;Users&#x2F;[username]目录下名为.ssh的文件夹，文件夹内会有两个文件，一个id_rsa.pub一个id_rsa，用文本编辑器打开id_rsa.pub，复制里面的的内容。 然后打开Github，点击右上角的头像 Settings 选择SSH and GPG keys</p>
-<p><img src="https://crazyyuchi.github.io/2022/05/02/bo-ke-da-jian-mei-hua-ju-xi-ban-ben/42.jpg" alt="github指引"></p>
-<p>点击New SSH key 将之前复制的内容粘帖到Key的框中。 上面的Title可以随意，点击Add SSH key 完成添加。</p>
-<p><img src="https://crazyyuchi.github.io/2022/05/02/bo-ke-da-jian-mei-hua-ju-xi-ban-ben/43.jpg" alt="github指引2"></p>
-<p>然后回到命令行界面，测试一下是否与github连接成功</p>
-<pre class=" language-js"><code class="language-js">ssh <span class="token operator">-</span>T git@github<span class="token punctuation">.</span>com
+<p>大多数设计稿的原型都是以 iphone6 为原型，iphone6 设备的宽是 750，我们的设计稿也是这样。</p>
+<p>但是 Vant 建议设置为 37.5，为什么呢？</p>
+<blockquote>
+<p>因为 Vant 是基于 375 写的，所以如果你设置为 75 的话，Vant 的样式就小了一半。</p>
+</blockquote>
+<p>所以如果设置为<code>37.5</code>的话，Vant 的样式是没有问题的，但是我们在测量设计稿的时候都必须除2才能使用，否则就会变得很大。</p>
+<p>这样做其实也没有问题，但是有没有更好的办法呢？我就想实现测量多少写多少（不用换算）。于是聪明的你就想，可以不可以这样来做？</p>
+<ul>
+<li>如果是 Vant 的样式，就把 <code>rootValue</code> 设置为 37.5 来转换</li>
+<li>如果是我们的样式，就按照 75 的 <code>rootValue</code> 来转换</li>
+</ul>
+<p>通过<a target="_blank" rel="noopener" href="https://github.com/cuth/postcss-pxtorem#options">查阅文档</a>我们可以看到 <code>rootValue</code> 支持两种参数类型：</p>
+<ul>
+<li>数字：固定值</li>
+<li>函数：动态计算返回<ul>
+<li>postcss-pxtorem处理每个 CSS 文件的时候都会来调用这个函数</li>
+<li>它会把被处理的 CSS 文件相关的信息通过参数传递给该函数</li>
+</ul>
+</li>
+</ul>
+<p>所以我们修改配置如下:</p>
+<pre class=" language-javascript"><code class="language-javascript"><span class="token comment" spellcheck="true">/**
+ * PostCSS配置文件
+ */</span>
+
+module<span class="token punctuation">.</span>exports <span class="token operator">-</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+    <span class="token comment" spellcheck="true">// 配置要是用的PostCSS插件</span>
+    plugins<span class="token punctuation">:</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+        <span class="token comment" spellcheck="true">// 配置使用 postcss-pxtorem 插件</span>
+        <span class="token comment" spellcheck="true">// 作用：把px 转为 rem</span>
+        <span class="token string">'postcss-pxtorem'</span><span class="token punctuation">:</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+            rootValue <span class="token punctuation">(</span><span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span> file <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">)</span> <span class="token operator">&amp;</span>#<span class="token number">123</span><span class="token punctuation">;</span>
+                <span class="token keyword">return</span> file<span class="token punctuation">.</span><span class="token function">indexOf</span><span class="token punctuation">(</span><span class="token string">'vant'</span><span class="token punctuation">)</span> <span class="token operator">!==</span> <span class="token operator">-</span><span class="token number">1</span> <span class="token operator">?</span> <span class="token number">37.5</span> <span class="token punctuation">:</span> <span class="token number">75</span>
+            <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span><span class="token punctuation">,</span>
+            propList<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token string">'*'</span><span class="token punctuation">]</span>
+        <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+    <span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
+<span class="token operator">&amp;</span>#<span class="token number">125</span><span class="token punctuation">;</span>
 </code></pre>
-<p>点击回车，然后会出现一个询问内容，输入yes，回车，会出现一段内容，Hi ! You’ve successfully authenticated, but GitHub doesnot provide shell access.。 说明连接成功。此处这个应该是你Github的用户名。</p>
-<p>进入博客站点目录，用文本编辑器打开_config.yml，这个_config.yml是博客的配置文件，在以后的博客修改，如个性化修改，博客SEO优化等都会使用到，  修改如下图的几个地方：</p>
-<pre class=" language-js"><code class="language-js">title<span class="token punctuation">:</span> 你的博客名
-subtitle<span class="token punctuation">:</span> 博客的副标题，有些主题支持
-description<span class="token punctuation">:</span> 博客描述
-keywords<span class="token punctuation">:</span> 博客关键词
-author<span class="token punctuation">:</span> 作者，在文章中显示
-language<span class="token punctuation">:</span> 博客语言语种   
-timezone<span class="token punctuation">:</span> 时区
-</code></pre>
-<p><img src="https://crazyyuchi.github.io/2022/05/02/bo-ke-da-jian-mei-hua-ju-xi-ban-ben/44.jpg" alt="指引"></p>
-<p>滑到文件最底部，有一个deploy，在deploy下面添加一个repo项 ，一个branch项。填入如下代码，并如下图所示</p>
-<pre class=" language-js"><code class="language-js">type<span class="token punctuation">:</span> git
-repo<span class="token punctuation">:</span> git@github<span class="token punctuation">.</span>com<span class="token punctuation">:</span>Github用户名<span class="token operator">/</span>github用户名<span class="token punctuation">.</span>github<span class="token punctuation">.</span>io<span class="token punctuation">.</span>git  
-<span class="token comment" spellcheck="true">//也可使用https地址，如：https://github.com/Github用户名/Github用户名.github.io.git            </span>
-branch<span class="token punctuation">:</span> master
-</code></pre>
-<p><img src="https://crazyyuchi.github.io/2022/05/02/bo-ke-da-jian-mei-hua-ju-xi-ban-ben/45.jpg" alt="指引"></p>
-<p>最后就是生成页面，并发布至Github Pages，执行如下命令：</p>
-<pre class=" language-py"><code class="language-py"># Hexo会根据配置文件渲染出一套静态页面
-hexo g
-# 将上一步渲染出的一系列文件上传至至Github Pages
-hexo d
-# 也可以直接输入此命令，直接完成渲染和上传
-hexo g -d
-</code></pre>
-<p>hexo博客主题的安装于修改会在另一篇里专门讲</p>
+<p>配置完毕，把服务重启一下，最后测试，very good。</p>
 
                 
             </div>
@@ -584,7 +631,7 @@ hexo g -d
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://engravesunny.github.io/2022/10/09/10.8-10.9-bi-ji/">http://engravesunny.github.io/2022/10/09/10.8-10.9-bi-ji/</a>
+                    <a href="http://engravesunny.github.io/2022/10/27/guan-yu.postcssrc.js-pei-zhi-wen-jian/">http://engravesunny.github.io/2022/10/27/guan-yu.postcssrc.js-pei-zhi-wen-jian/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -622,12 +669,16 @@ hexo g -d
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/%E7%AC%94%E8%AE%B0/">
-                                    <span class="chip bg-color">笔记</span>
+                                <a href="/tags/%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93/">
+                                    <span class="chip bg-color">项目总结</span>
                                 </a>
                             
-                                <a href="/tags/%E5%8D%9A%E5%AE%A2/">
-                                    <span class="chip bg-color">博客</span>
+                                <a href="/tags/vue/">
+                                    <span class="chip bg-color">vue</span>
+                                </a>
+                            
+                                <a href="/tags/postcssrc%E6%8F%92%E4%BB%B6/">
+                                    <span class="chip bg-color">postcssrc插件</span>
                                 </a>
                             
                         </div>
@@ -801,13 +852,13 @@ hexo g -d
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2022/10/09/hexo-bo-ke-zhu-ti-an-zhuang-yu-xiu-gai/">
+                <a href="/2022/10/27/you-hua-she-zhi-token/">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="hexo博客主题与修改">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="优化设置Token">
                         
-                        <span class="card-title">hexo博客主题与修改</span>
+                        <span class="card-title">优化设置Token</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -818,14 +869,14 @@ hexo g -d
                     </div>
                     <div class="publish-info">
                         <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2022-10-09
+                            <i class="far fa-clock fa-fw icon-date"></i>2022-10-27
                         </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/%E5%8D%9A%E5%AE%A2%E4%BF%AE%E6%94%B9/" class="post-category">
-                                    博客修改
+                            <a href="/categories/%E9%BB%91%E9%A9%AC%E5%A4%B4%E6%9D%A1%E9%A1%B9%E7%9B%AE/" class="post-category">
+                                    黑马头条项目
                                 </a>
                             
                             
@@ -835,12 +886,16 @@ hexo g -d
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/%E7%AC%94%E8%AE%B0/">
-                        <span class="chip bg-color">笔记</span>
+                    <a href="/tags/%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93/">
+                        <span class="chip bg-color">项目总结</span>
                     </a>
                     
-                    <a href="/tags/%E5%8D%9A%E5%AE%A2%E4%BF%AE%E6%94%B9/">
-                        <span class="chip bg-color">博客修改</span>
+                    <a href="/tags/vue/">
+                        <span class="chip bg-color">vue</span>
+                    </a>
+                    
+                    <a href="/tags/token/">
+                        <span class="chip bg-color">token</span>
                     </a>
                     
                 </div>
@@ -854,12 +909,13 @@ hexo g -d
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/2022/10/09/10.1-3-bi-ji/">
+                <a href="/2022/10/26/guan-yu-yong-hu-token-de-chu-li/">
                     <div class="card-image">
                         
-                        <img src="/../galleries/AnimeScenery/img/1.jpg" class="responsive-img" alt="10.1-3笔记">
                         
-                        <span class="card-title">10.1-3笔记</span>
+                        <img src="/medias/featureimages/7.jpg" class="responsive-img" alt="关于用户token的处理">
+                        
+                        <span class="card-title">关于用户token的处理</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
@@ -870,14 +926,14 @@ hexo g -d
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2022-10-09
+                                <i class="far fa-clock fa-fw icon-date"></i>2022-10-26
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/React/" class="post-category">
-                                    React
+                            <a href="/categories/%E9%BB%91%E9%A9%AC%E5%A4%B4%E6%9D%A1%E9%A1%B9%E7%9B%AE/" class="post-category">
+                                    黑马头条项目
                                 </a>
                             
                             
@@ -887,12 +943,16 @@ hexo g -d
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/React/">
-                        <span class="chip bg-color">React</span>
+                    <a href="/tags/%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93/">
+                        <span class="chip bg-color">项目总结</span>
                     </a>
                     
-                    <a href="/tags/%E7%AC%94%E8%AE%B0/">
-                        <span class="chip bg-color">笔记</span>
+                    <a href="/tags/vue/">
+                        <span class="chip bg-color">vue</span>
+                    </a>
+                    
+                    <a href="/tags/token/">
+                        <span class="chip bg-color">token</span>
                     </a>
                     
                 </div>
