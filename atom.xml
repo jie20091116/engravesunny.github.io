@@ -6,7 +6,7 @@
   <link href="http://engravesunny.github.io/atom.xml" rel="self"/>
   
   <link href="http://engravesunny.github.io/"/>
-  <updated>2022-10-28T02:57:30.653Z</updated>
+  <updated>2022-10-29T03:01:59.476Z</updated>
   <id>http://engravesunny.github.io/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>关于后端返回的大数字问题</title>
+    <link href="http://engravesunny.github.io/2022/10/30/guan-yu-hou-duan-fan-hui-da-shu-zi-de-wen-ti/"/>
+    <id>http://engravesunny.github.io/2022/10/30/guan-yu-hou-duan-fan-hui-da-shu-zi-de-wen-ti/</id>
+    <published>2022-10-30T02:29:22.000Z</published>
+    <updated>2022-10-29T03:01:59.476Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;关于后端返回的大数字问题&quot;&gt;&lt;a href=&quot;#关于后端返回的大数字问题&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="黑马头条项目" scheme="http://engravesunny.github.io/categories/%E9%BB%91%E9%A9%AC%E5%A4%B4%E6%9D%A1%E9%A1%B9%E7%9B%AE/"/>
+    
+    
+    <category term="项目总结" scheme="http://engravesunny.github.io/tags/%E9%A1%B9%E7%9B%AE%E6%80%BB%E7%BB%93/"/>
+    
+    <category term="vue" scheme="http://engravesunny.github.io/tags/vue/"/>
+    
+    <category term="后端的大数字" scheme="http://engravesunny.github.io/tags/%E5%90%8E%E7%AB%AF%E7%9A%84%E5%A4%A7%E6%95%B0%E5%AD%97/"/>
+    
+  </entry>
   
   <entry>
     <title>搜索细节问题</title>
